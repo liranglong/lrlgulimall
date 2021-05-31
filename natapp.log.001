@@ -1,0 +1,13 @@
+[2020/09/08 10:08:51 CST] [EROR] (natapp/src/log.(*PrefixLogger).Error:91) [pxy:77ac3ff4] Server failed to write StartProxy: unexpected end of JSON input
+[2020/09/08 10:11:16 CST] [EROR] (natapp/src/log.(*PrefixLogger).Error:91) [pxy:6c48e985] Server failed to write StartProxy: unexpected end of JSON input
+[2020/09/08 10:16:20 CST] [EROR] (natapp/src/log.(*PrefixLogger).Error:91) [pxy:436f47fd] Server failed to write StartProxy: unexpected end of JSON input
+[2020/09/08 10:22:19 CST] [EROR] (natapp/src/log.(*PrefixLogger).Error:91) [pxy:40af5dec] Server failed to write StartProxy: unexpected end of JSON input
+[2020/09/08 15:29:41 CST] [EROR] (natapp/src/log.Error:120) control recovering from failure read tcp 192.168.0.107:58371->112.74.89.58:443: wsarecv: An established connection was aborted by the software in your host machine.
+[2020/09/08 15:29:42 CST] [EROR] (natapp/src/log.(*PrefixLogger).Error:91) [pxy:2e0a11d6] Server failed to write StartProxy: read tcp 192.168.0.107:31333->112.74.89.58:443: wsarecv: An established connection was aborted by the software in your host machine.
+[2020/09/08 15:29:42 CST] [EROR] (natapp/src/log.(*PrefixLogger).Error:91) [client] Last ping: 2020-09-08 12:29:41.8012106 +0800 CST m=+97100.652701001, Last pong: 2020-09-08 12:29:21.834009 +0800 CST
+[2020/09/08 15:29:42 CST] [EROR] (natapp/src/log.(*PrefixLogger).Error:91) [client] Connection stale, haven't gotten PongMsg in 10796 seconds
+[2020/09/08 15:29:44 CST] [EROR] (natapp/src/log.Error:120) control recovering from failure dial tcp: lookup server.natappfree.cc: no such host
+[2020/09/08 17:27:41 CST] [EROR] (natapp/src/log.Error:120) control recovering from failure read tcp 192.168.0.107:11101->112.74.89.58:443: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+[2020/09/08 17:27:43 CST] [EROR] (natapp/src/log.(*PrefixLogger).Error:91) [client] Last ping: 2020-09-08 17:27:28.0677308 +0800 CST m=+114966.919221501, Last pong: 2020-09-08 15:29:47.9263372 +0800 CST
+[2020/09/08 17:27:43 CST] [EROR] (natapp/src/log.(*PrefixLogger).Error:91) [client] Connection stale, haven't gotten PongMsg in 15 seconds
+[2020/09/08 17:29:31 CST] [EROR] (natapp/src/log.(*PrefixLogger).Error:91) [pxy:63819071] Server failed to write StartProxy: read tcp 192.168.0.107:11421->112.74.89.58:443: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.

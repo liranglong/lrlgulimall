@@ -1,0 +1,22 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: gulimall-seckill
+  cloud:
+    nacos:
+      discovery:
+        server-addr: nacos-service.gulimall:8848
+  redis:
+    host: redis.gulimall
+    port: 6379
+  #配置异步任务线程池
+  task:
+    execution:
+      pool:
+        core-size: 5
+        max-size: 50
+  session:
+    store-type: redis
+
+

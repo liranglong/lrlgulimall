@@ -1,0 +1,8 @@
+#spring:
+#  cloud:
+#    alicloud:
+#      access-key:
+#      secret-key:
+#      oss:
+#        endpoint: oss-cn-shanghai.aliyuncs.com
+#        bucket: gulimall-wan
